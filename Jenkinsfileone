@@ -9,17 +9,17 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                echo 'Deploy -Hello World'
+                echo 'Deploy -Hello World file edited'
             }
         }
         stage('Test') {
             steps {
-                echo 'Test - Hello World'
+                echo 'Test - Hello World - file edited'
             }
         }
         stage('Release') {
             steps {
-                echo 'Release - Hello World'
+                echo 'Release - Hello World-file edited'
             }
         }
     }
