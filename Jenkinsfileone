@@ -19,7 +19,7 @@ pipeline {
         }
         stage('Release') {
             steps {
-                echo 'Release - Hello World-file edited'
+                echo 'Release - Hello World-file edited-again'
             }
         }
     }
